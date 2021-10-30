@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ASD</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">        
+        <link href="css/fancybox.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/flexslider.min.css" rel="stylesheet" type="text/css">
+        <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"> 
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script> 
+        <style>
+            .errmsg{
+                border: 1px solid red !important;
+            }
+        </style>    
+    </head>
+    <body class="rtl">
+
+        
+        <div>
+        <header class="asd_header" id="asd_header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="images/logo.png" alt="logo_image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="asd_nav">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+                                    <span class="sr-only"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="header_nav">
+                                    <nav class="navbar">
+                                        <div class="collapse navbar-collapse" id="navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="active"><a href="#home">الصفحة الرئيسية</a></li>
+                                                <li><a href="#about_asd">حول ASD</a></li>
+                                                <li><a href="#contact">اتصل</a></li>
+                                                <li><a href="#useful_links">روابط مفيدة</a></li>    
+                                                <li class="terms_of_use"><a href="#">تعليمات الاستخدام</a></li>
+                                                <li class="download_link"><a href="#">تحميل</a></li> 
+                                            </ul>                                           
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1">
+                        <div class="lang_option">
+                            <div class="custom_dropdown">
+                                <a href="#"><i class="fa fa-angle-down"></i><img src="images/Saudi-Arabia.png" alt=""></a>
+                                <div class="langs" style="display: none;">
+                                    <ul>
+                                        <li class="America" ><a href="index.html"><img src="images/United-States.jpg" alt=""></a></li>
+                                        <li class="Arabia"><a href="arabia.html"><img src="images/Saudi-Arabia.png" alt=""></a></li>
+                                        <li class="Spain"><a href="spain.html"><img src="images/Spain.jpg" alt=""></a></li>
+                                        <li class="Portugal"><a href="portugal.html"><img src="images/Portugal.png" alt=""></a></li>
+                                        <li class="France"><a href="france.html"><img src="images/France.jpg" alt=""></a></li>
+                                        <li class="China" ><a href="china.html"><img src="images/China.jpg" alt=""></a></li>
+                                        <li class="Pakistan"><a href="pakistan.html"><img src="images/Pakistan.jpg" alt=""></a></li>
+                                        <li class="Kenya"><a href="kenya.html"><img src="images/Kenya.png" alt=""></a></li>
+                                        <li class="Russia"><a href="russia.html"><img src="images/Russia.jpg" alt=""></a></li>
+                                        <li class="Turkey"><a href="turkey.html"><img src="images/Turkey.jpg" alt=""></a></li>   
+                                        <li class="Iran"><a href="iran.html"><img src="images/Iran.jpg" alt=""></a></li>    
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="home" class="banner_section"> 
+            <div class="banner">
+                <div class="container">
+                    <div class="col-sm-12">
+                        <div class="home_banner_text" >
+                            <h1>اختبارات تطبيق التوحد</h1>                       
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+
+
+        <section id="about_asd">
+            <div class="about_asd_section">
+                <div class="container">
+                    <ul class="slides">
+                        <li>
+                            <div class="asd_slider">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="slider_img">
+                                            <img src="images/slide1.png" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="slider_content">
+                                            <div class="section_title">
+                                                <h2>حول تطبيقات التوحد</h2>
+                                                <p>
+                                                     تم إنشاء هذا التطبيق للأغراض البحثية وليس للأغراض التجارية. يتضمن هذا التطبيق اختبارا لسمات التوحد, حيث
+                                                     يمكن للآباء أو القائمين برعاية الأطفال أو حتى الباحثين الأكاديميين استخدامهم. وجدير بالذكر أن هذه الاختبارات
+                                                     ليست للتشخيص, لكنها اختبارات سلوكية تسلط الضوء على سمات التوحد.التطبيق يمكن تحميلها بحرية وتوزيعها
+                                                     ولكن لا يمكن استخدامها لتحقيق مكاسب مالية.وقد تم تطوير هذا التطبيق من قبل الدكتور فادي فايز ثبته
+                                                </p>
+                                                <div class="download_btn">
+                                                    <div class="google_play">
+                                                        <a href="https://play.google.com/store/apps/details?id=com.asd.asdquiz&hl=en" target="_blank">
+                                                            <img src="images/google_play.png" class="img-responsive">
+                                                        </a>
+                                                    </div>
+                                                    <div class="app_store">
+                                                        <a href="#">
+                                                            <img src="images/app_store.png" class="img-responsive">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="asd_slider">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="slider_img">
+                                            <img src="images/slide2.png" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="slider_content">
+                                            <div class="section_title">
+                                                <h2>حول تطبيقات التوحد </h2>
+                                                <p>
+                                                     تم إنشاء هذا التطبيق للأغراض البحثية وليس للأغراض التجارية. يتضمن هذا التطبيق اختبارا لسمات التوحد, حيث
+                                                     يمكن للآباء أو القائمين برعاية الأطفال أو حتى الباحثين الأكاديميين استخدامهم. وجدير بالذكر أن هذه الاختبارات
+                                                     ليست للتشخيص, لكنها اختبارات سلوكية تسلط الضوء على سمات التوحد.التطبيق يمكن تحميلها بحرية وتوزيعها
+                                                     ولكن لا يمكن استخدامها لتحقيق مكاسب مالية.
+                                                </p>
+                                                <div class="download_btn">
+                                                    <div class="google_play">
+                                                        <a href="https://play.google.com/store/apps/details?id=com.asd.asdquiz&hl=en" target="_blank">
+                                                            <img src="images/google_play.png" class="img-responsive">
+                                                        </a>
+                                                    </div>
+                                                    <div class="app_store">
+                                                        <a href="#">
+                                                            <img src="images/app_store.png" class="img-responsive">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="asd_slider">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="slider_img">
+                                            <img src="images/slide3.png" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="slider_content">
+                                            <div class="section_title">
+                                                <h2>حول تطبيقات التوحد</h2>
+                                                <p>
+                                                     تم إنشاء هذا التطبيق للأغراض البحثية وليس للأغراض التجارية. يتضمن هذا التطبيق اختبارا لسمات التوحد, حيث
+                                                     يمكن للآباء أو القائمين برعاية الأطفال أو حتى الباحثين الأكاديميين استخدامهم. وجدير بالذكر أن هذه الاختبارات
+                                                     ليست للتشخيص, لكنها اختبارات سلوكية تسلط الضوء على سمات التوحد.التطبيق يمكن تحميلها بحرية وتوزيعها
+                                                     ولكن لا يمكن استخدامها لتحقيق مكاسب مالية.
+                                                </p>
+                                                <div class="download_btn">
+                                                    <div class="google_play">
+                                                        <a href="https://play.google.com/store/apps/details?id=com.asd.asdquiz&hl=en" target="_blank">
+                                                            <img src="images/google_play.png" class="img-responsive">
+                                                        </a>
+                                                    </div>
+                                                    <div class="app_store">
+                                                        <a href="#">
+                                                            <img src="images/app_store.png" class="img-responsive">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact_us_section">
+                <div class="container">
+                    <div class="section_title">
+                        <h2>اتصل</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="contact_info">
+                                <h4>معلومات الاتصال</h4>
+                                <ul class="contact_and_location">
+                                    <li><a class="contact_number" href="tel:2022869572">(202)-286-9572</a></li>                                    
+                                </ul>
+                                <!-- <h4 class="get_social">كن أجتماعى</h4> -->
+                                <ul class="contact_on_social">
+                                    <li><a href="https://facebook.com/" class="facebook" target="_blank"></a></li>
+                                    <li><a href="https://twitter.com/" class="twitter" target="_blank"></a></li>
+                                    <li><a href="https://instagram.com/" class="instagram" target="_blank"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-offset-1 col-md-8">
+                            <div class="contact_form row">
+                                <form id="frm_cntc" action="#" name="frm_cntc">
+                                    <div class="col-sm-6">
+                                        <label>First Name</label>
+                                        <input type="text" placeholder="Enter Your First Name" name="fname" id="fname" maxlength="10">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label>Last Name</label>
+                                        <input type="text" placeholder="Enter Your Last Name" name="lname" id="lname" maxlength="10">
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <label>Email Address</label>
+                                        <input type="email" placeholder="Enter Your Email Address" name="email" id="email">
+                                        <label class="message">Message</label>
+                                        <textarea placeholder="Enter Your Message" name="customer_msg" id="customer_msg"></textarea>
+                                        <div class="chapcha_code_section">
+                                            <div class="chapcha">
+                                                <div class="g-recaptcha" data-sitekey="6LfD8CkUAAAAAFYcy4yDmpNddBhcw4DqiV9oQ5an" data-callback="recaptchaCallback"></div>
+                                            </div>            
+                                            <span id="contact_msg" class="contact_msg" ></span>
+                                            <input type="submit" value="send" name="submit" id="submit_contact">
+                                            <span id="contact_msg" class="contact_msg" ></span>
+                                        </div>
+                                        <div class="content pass_msg"></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="slideshow_section">
+                <div class="slideshow">
+                    <ul class="slides">
+                        <li>
+                            <a rel="example_group" href="images/big1.jpg">
+                                <div class="slideshow_img">
+                                    <img src="images/slide-1.jpg" class="img-responsive">
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="example_group" href="images/big2.jpg">
+                                <div class="slideshow_img">
+                                    <img src="images/slide-2.jpg" class="img-responsive">
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="example_group" href="images/big3.jpg">
+                                <div class="slideshow_img">
+                                    <img src="images/slide-3.jpg" class="img-responsive">
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="example_group" href="images/big4.jpg">
+                                <div class="slideshow_img">
+                                    <img src="images/slide-4.jpg" class="img-responsive">
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="example_group" href="images/big5.jpg">
+                                <div class="slideshow_img">
+                                    <img src="images/slide-5.jpg" class="img-responsive">
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="example_group" href="images/big6.jpg">
+                                <div class="slideshow_img">
+                                    <img src="images/slide-6.jpg" class="img-responsive">
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="example_group" href="images/big7.jpg">
+                                <div class="slideshow_img">
+                                    <img src="images/slide-7.jpg" class="img-responsive">
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="example_group" href="images/big8.jpg">
+                                <div class="slideshow_img">
+                                    <img src="images/slide-8.jpg" class="img-responsive">
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="example_group" href="images/big9.jpg">
+                                <div class="slideshow_img">
+                                    <img src="images/slide-9.jpg" class="img-responsive">
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="example_group" href="images/big10.jpg">
+                                <div class="slideshow_img">
+                                    <img src="images/slide-10.jpg" class="img-responsive">
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="useful_links">
+            <div class="useful_link_section">
+                <div class="container">
+                    <div class="section_title">
+                        <h2>روابط مفيدة</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul>
+                                <li><a href="https://www.autismresearchcentre.com/" target="_blank">https://www.autismresearchcentre.com/</a></li>
+                                <li><a href="https://www.autismnz.org.nz/" target="_blank">https://www.autismnz.org.nz/</a></li>
+                                <li><a href="http://www.autismsupportnetwork.com/resources" target="_blank">http://www.autismsupportnetwork.com/resources</a></li>
+                                <li><a href="http://www.nationalautismcenter.org/resources/for-families/" target="_blank">http://www.nationalautismcenter.org/resources/for-families/</a></li>
+                                <li><a href="http://www.autism-resources.com/links/index.html" target="_blank">http://www.autism-resources.com/links/index.html</a></li>
+                                <li><a href="https://www.nationalautismresources.com/" target="_blank">https://www.nationalautismresources.com/</a></li>
+                                <li><a href="https://www.autismspeaks.org/" target="_blank">https://www.autismspeaks.org/</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul>
+                                <li><a href="http://www.autismlinks.co.uk/" target="_blank">http://www.autismlinks.co.uk/</a></li>
+                                <li><a href="http://www.ct-asrc.org/" target="_blank">http://www.ct-asrc.org/</a></li>
+                                <li><a href="https://psychcentral.com/quizzes/autism-quiz.htm" target="_blank">https://psychcentral.com/quizzes/autism-quiz.htm</a></li>
+                                <li><a href="http://aspergerstest.net/aq-test/" target="_blank">http://aspergerstest.net/aq-test/</a></li>
+                                <li><a href="http://www.practicalautismresources.com/" target="_blank">http://www.practicalautismresources.com/</a></li>
+                                <li><a href="https://www.kidshealth.org.nz/autism-spectrum-disorder-asd" target="_blank">https://www.kidshealth.org.nz/autism-spectrum-disorder-asd</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer>
+            <div class="copy_right">
+                <p>© 2017 ASDTests.com.  كل الحقوق محفوظة.</p>
+            </div>
+        </footer>
+
+
+        <div class="terms_popup">
+            <div class="popup_content">
+            <div class="terms_popup_box">
+                <div class="close_sign">
+                    <a href="#"><img src="images/close_sign.png" class="img-responsive"></a>
+                </div>
+                
+                <div class="section_title">
+                    <h2>تعليمات الاستخدام</h2>
+                </div>
+                <div class="terms_popup_content">
+                    <h4>رخصة الاختبار:</h4>
+                    <p>هذا التطبيق ليس للإستخدام التجاري بل من أجل الأغراض البحثية, لذا فهو يستوفي شروط  مركز أبحاث التوحد ARC tests terms of use </p>
+                    <h4>شروط الترجمة:</h4>
+                    <p>هذه الاختبارات مترجمة بدقة من النص المكتوب باللغة الانجليزية الذي قام بنشره المؤلفون, و دقة الترجمة تعتمد على كفاءة المترجم. و على الرغم من اختيارنا لمترجمين من المتحدثين الأصليين لكل لغة, إلا أنه في حال وجد الباحثون المستخدمون للتطبيق المُتَرجم أية أخطاء, فنحن نرحب بالتواصل معنا عبر البريد الالكتروني<a href="mailto:info@asdtests.com">info@asdtests.com</a></p>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+       
+
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+<!--        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>-->
+        <script src="js/fancybox.min.js" type="text/javascript"></script>
+        <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>    
+        <script src="js/smoothscroll.js" type="text/javascript"></script>
+        <script src="js/classie.min.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>  
+        <!-- for mail -->
+        <script>
+            $(document).ready(function () {
+
+                function isValidEmailAddress(emailAddress) {
+                    var pattern = /^([a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+(\.[a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+)*|"((([ \t]*\r\n)?[ \t]+)?([\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*(([ \t]*\r\n)?[ \t]+)?")@(([a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.)+([a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.?$/i;
+                    return pattern.test(emailAddress);
+                }
+                function recaptchaCallback() {
+                     $('.g-recaptcha').removeClass("errmsg");
+                }
+                ;
+                $("#submit_contact").on("click", function (e) {
+
+                    if ($("#fname").val().trim() == "" || $("#lname").val().trim() == "" || $("#email").val().trim() == "" || $("#customer_msg").val().trim() == "") {
+                        if ($("#fname").val().trim() == "")
+                        {
+                            $("#fname").addClass("errmsg");
+                            $error_message = 'The Email Address you entered does not appear to be valid.';
+                        } else {
+                            $("#fname").removeClass("errmsg");
+                        }
+
+                        if ($("#lname").val().trim() == "")
+                        {
+                            $("#lname").addClass("errmsg");
+                        } else {
+                            $("#lname").removeClass("errmsg");
+                        }
+
+                        if ($("#email").val().trim() == "")
+                        {
+                            $("#email").addClass("errmsg");
+                        } else {
+
+                            $("#email").removeClass("errmsg");
+                        }
+                        if ($("#customer_msg").val().trim() == "") {
+                            $("#customer_msg").addClass("errmsg");
+                        }
+                        else {
+                            $("#customer_msg").removeClass("errmsg");
+                        }
+                        if (grecaptcha.getResponse() == "") {
+                            $('.g-recaptcha').addClass("errmsg");
+                        } else {
+                            $('.g-recaptcha').removeClass("errmsg");
+                        }
+
+
+                        return false;
+                    }
+                    else if (!isValidEmailAddress($("#email").val().trim())) {
+                        $("#email").addClass("errmsg");
+                        $('#contact_msg').html('please enter valid email address.');
+
+
+
+                    }
+                    else {
+                        var alldata = $('#frm_cntc').serialize();
+                        $.ajax({
+                            url: 'ajax_call.php',
+                            type: "POST",
+                            data: alldata,
+                            dataType: "html",
+                            success: function (data) {
+                                jQuery('#contact_msg').html('Your message has been sent');
+                                setTimeout(function () {
+                                    jQuery('#contact_msg').fadeOut('fast');
+                                }, 3000);
+                            },
+                            error: function (jqXHR, textStatus, errorThrown) {
+                                jQuery('#contact_msg').html('Something went wrong.');
+                                setTimeout(function () {
+                                    jQuery('#contact_msg').fadeOut('fast');
+                                }, 3000);
+                            }
+                        });
+                        return false;
+                    }
+
+                });
+            });
+            $(".recaptcha-checkbox-checkmark").click(function () {
+                $('.g-recaptcha').removeClass("errmsg");
+
+            });
+            $("#fname,#lname,#email,#customer_msg").each(function () {
+                $(this).keypress(function () {
+                    $(this).removeClass('errmsg');
+                });
+            });
+            $(document).ready(function () {
+                $("#fname,#lname").each(function () {
+                    $(this).keypress(function (e) {
+                        var regex = new RegExp("^[a-zA-Z]+$");
+                        var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
+                        if (regex.test(str) || e.charCode == 32 || e.charCode == 0) {
+                            return true;
+                        }
+
+                        e.preventDefault();
+                        return false;
+                    });
+                });
+            });
+        </script>   
+    </body>
+</html>
